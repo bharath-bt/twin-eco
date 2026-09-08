@@ -4,7 +4,8 @@
  * designed to emulate PostgreSQL 16 behaviour with relational integrity, indexes, and execution plans.
  */
 
-import { UserRow, WorkloadRow, DatabaseMetricRow, AuditLogRow, POSTGRES_TABLE_SCHEMAS, SchemaTableDefinition } from './schema.ts';
+import type { UserRow, WorkloadRow, DatabaseMetricRow, AuditLogRow, SchemaTableDefinition } from './schema.ts';
+import { POSTGRES_TABLE_SCHEMAS } from './schema.ts';
 
 interface ConnectionPoolStats {
   totalCount: number;
