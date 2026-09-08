@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Architecture Platform",
+  "description": "Full-stack enterprise workload and architecture management platform with React, Node.js, and simulated PostgreSQL engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
